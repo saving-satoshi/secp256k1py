@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "savingsatoshi-secp256k1py"
+version = "0.1.0"
+description = "ECDSA module for Saving Satoshi code challenges"
+authors = ["Matthew Zipkin <pinheadmz@gmail.com>"]
+license = "MIT"
+packages = [{include = "secp256k1py"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
