@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "savingsatoshi-secp256k1py"
-version = "0.1.0"
+name = "savingsatoshi_secp256k1py"
+version = "0.2.0"
 description = "ECDSA module for Saving Satoshi code challenges"
 authors = ["Matthew Zipkin <pinheadmz@gmail.com>"]
 license = "MIT"
